@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "Montserrat", sans-serif;
 }
 
 html,
@@ -39,18 +39,14 @@ main {
 }
 
 .qrcode-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  gap: 10px;
 }
 
 .qrcode-content h1 {
   font-size: 1.2rem;
   font-weight: 700;
   color: #000;
+  margin-bottom: 10px;
 }
 
 .qrcode-content p {
